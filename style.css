@@ -113,6 +113,13 @@ body {
   margin-bottom: 10px;
 }
 
+.step-image {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
 /* System Requirements */
 .requirements {
   padding: 60px 0;
