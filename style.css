@@ -2,11 +2,11 @@
   max-width: 500px;
   margin: 30px auto;
   padding: 25px;
-  background: #f0f8ff;
-  border: 2px solid #0b6b3a;
-  border-radius: 10px;
+  background: #f0f8ff; /* light blue background */
+  border: 2px solid #0b6b3a; /* green border */
+  border-radius: 12px;
   text-align: center;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
 }
 
@@ -14,19 +14,21 @@
   font-size: 16px;
   color: #0b6b3a;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .link-button {
   display: inline-block;
-  padding: 12px 18px;
+  padding: 12px 20px;
   background-color: #0b6b3a;
   color: #ffffff;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .link-button:hover {
   background-color: #09522c;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
